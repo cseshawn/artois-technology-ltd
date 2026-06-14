@@ -1,0 +1,52 @@
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  counter-reset: step;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 1.25rem;
+  align-items: start;
+  padding: 1.25rem 1.5rem;
+}
+
+.stepNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+}
+
+.stepContent h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.375rem;
+}
+
+.stepContent p {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+}
+
+@media (max-width: 640px) {
+  .step {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .stepNumber {
+    width: 40px;
+    height: 40px;
+  }
+}

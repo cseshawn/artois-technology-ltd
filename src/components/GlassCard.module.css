@@ -1,0 +1,10 @@
+.card {
+  padding: 1.5rem;
+  transition: background var(--transition), border-color var(--transition);
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 1.25rem;
+  }
+}
