@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #e8f0fe;
+  background: #eef2ff;
   font-family: "Inter", sans-serif;
   min-height: 100vh;
   display: flex;
@@ -19,12 +19,12 @@ body {
   width: 100%;
   background: #ffffff;
   border-radius: 2.5rem;
-  box-shadow: 0 30px 60px -20px rgba(24, 119, 242, 0.25);
+  box-shadow: 0 30px 60px -20px rgba(71, 99, 254, 0.25);
   padding: 3rem 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(24, 119, 242, 0.08);
+  border: 1px solid rgba(71, 99, 254, 0.08);
 }
 
 .content {
@@ -32,17 +32,17 @@ body {
   width: 100%;
 }
 
-/* Logo mark - Facebook blue */
+/* Logo mark - Primary color #4763fe */
 .logo-mark {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, #1877f2, #0d65d9);
+  background: linear-gradient(135deg, #4763fe, #3651e0);
   border-radius: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 1.5rem;
-  box-shadow: 0 10px 30px rgba(24, 119, 242, 0.3);
+  box-shadow: 0 10px 30px rgba(71, 99, 254, 0.3);
 }
 
 .logo-mark span {
@@ -52,15 +52,15 @@ body {
   letter-spacing: 1px;
 }
 
-/* Brand name */
+/* Brand name - Primary color #4763fe */
 .brand-name {
   font-size: 3.6rem;
   font-weight: 800;
   letter-spacing: 5px;
-  color: #1877f2;
+  color: #4763fe;
   line-height: 1.05;
   text-transform: uppercase;
-  text-shadow: 0 2px 20px rgba(24, 119, 242, 0.1);
+  text-shadow: 0 2px 20px rgba(71, 99, 254, 0.1);
 }
 
 .brand-sub {
@@ -72,22 +72,22 @@ body {
   text-transform: uppercase;
 }
 
-/* Divider - Facebook blue */
+/* Divider - Primary color #4763fe */
 .divider {
   width: 50px;
   height: 3px;
-  background: linear-gradient(90deg, #1877f2, #64b5f6);
+  background: linear-gradient(90deg, #4763fe, #889bfe);
   margin: 1.2rem auto 1.2rem;
   border-radius: 4px;
 }
 
 /* ===== MAINTENANCE BANNER ===== */
 .maintenance-banner {
-  background: linear-gradient(135deg, #1877f2 0%, #0d65d9 100%);
+  background: linear-gradient(135deg, #4763fe 0%, #3651e0 100%);
   padding: 1.2rem 1.5rem;
   border-radius: 20px;
   margin-bottom: 1.8rem;
-  box-shadow: 0 8px 32px rgba(24, 119, 242, 0.35);
+  box-shadow: 0 8px 32px rgba(71, 99, 254, 0.35);
   border: 1px solid rgba(255, 255, 255, 0.15);
   position: relative;
   overflow: hidden;
@@ -155,18 +155,18 @@ body {
   display: flex;
   align-items: center;
   gap: 14px;
-  background: #f0f7ff;
+  background: #f0f3ff;
   padding: 0.9rem 1.2rem 0.9rem 1rem;
   border-radius: 60px;
-  border: 1.5px solid rgba(24, 119, 242, 0.15);
+  border: 1.5px solid rgba(71, 99, 254, 0.15);
   transition: all 0.3s ease;
   cursor: pointer;
-  box-shadow: 0 2px 12px rgba(24, 119, 242, 0.06);
+  box-shadow: 0 2px 12px rgba(71, 99, 254, 0.06);
 }
 
 .contact-card:hover {
-  border-color: #1877f2;
-  box-shadow: 0 8px 28px rgba(24, 119, 242, 0.18);
+  border-color: #4763fe;
+  box-shadow: 0 8px 28px rgba(71, 99, 254, 0.18);
   transform: translateY(-2px);
   background: #ffffff;
 }
@@ -175,12 +175,12 @@ body {
   width: 44px;
   height: 44px;
   min-width: 44px;
-  background: linear-gradient(135deg, #1877f2, #0d65d9);
+  background: linear-gradient(135deg, #4763fe, #3651e0);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 16px rgba(24, 119, 242, 0.25);
+  box-shadow: 0 4px 16px rgba(71, 99, 254, 0.25);
 }
 
 .contact-icon {
@@ -201,7 +201,7 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: #1877f2;
+  color: #4763fe;
   opacity: 0.7;
 }
 
@@ -217,14 +217,14 @@ body {
 }
 
 .contact-email:hover {
-  color: #1877f2;
+  color: #4763fe;
 }
 
 .contact-arrow {
   width: 32px;
   height: 32px;
   min-width: 32px;
-  background: rgba(24, 119, 242, 0.08);
+  background: rgba(71, 99, 254, 0.08);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -235,12 +235,12 @@ body {
 .contact-arrow svg {
   width: 16px;
   height: 16px;
-  color: #1877f2;
+  color: #4763fe;
   transition: 0.3s ease;
 }
 
 .contact-card:hover .contact-arrow {
-  background: #1877f2;
+  background: #4763fe;
 }
 
 .contact-card:hover .contact-arrow svg {
